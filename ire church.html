@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MFM PROSPERITY ZONE SERVICE SCHEDULE.</title>
+        <style>
+            div  {
+                .
+              font-size: ;
+            }
+
+            
+            kbody {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+                background: linear-gradient(to right,#ff80d0,
+                #f2b6ff);
+                color: #fff;
+                text-align: center;
+                text-transform: uppercase;
+            }
+             .header-cointainer {
+               display: flex;
+               align-items: center;
+               gap: 15px;
+               padding: 20px;
+               background-color: #fff;
+               box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+             }
+               #mfm-logo {
+                width: 20px;
+                height: auto;
+               }
+          .banner   {
+            font-size: 1500px;
+            background: #4b006e;
+            padding: 20px;
+            border-top: 5px solid #ffcc00;
+          }
+          .title {
+            font-size: 26px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+
+          }
+          .subtitle {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 20px;
+          }
+          .schedule  {
+            background: #ffffff;
+            color: #4b006e;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+
+          }
+
+          .schedule-item  {
+            display: flex;
+            justify-content: space-between;
+            background: #ffeb99;
+            color: #000;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 18px;
+          }
+
+          .highlight  {
+            background: #4b006e;
+            color: #fff;
+            padding: 10px;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 15px;
+          }
+    footer {
+        margin-top: 20px;
+        background-color: #4b006e;
+        padding: 15px;
+        font-style: italic;
+    }
+    .fade  {
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+    .fade.visible  {
+        opacity: 1;
+    }
+        </style>
+    </head>
+    <body>
+      <header>
+        <div class="header-cointainer">
+          <img src="images/mfm-logo.jpg" alt="MFM LOGO" id="mfm-logo"
+        </div>
+      </header>
+        <div class="banner">
+            <div class="title">Mountain of Fire and Miracles Ministries</div>
+            <div class="subtitle">PROSPERITY ZONAL HEADQUATERS</div>
+            <div class="subtitle">No.14 Adeniyan Street,Ayedun Akure,</div>
+            <div class="subtitle">S/W  155 Region,Ayedun,Akure</div>
+        </div>
+
+        <div class="schedule">
+            <div class="schedule-item">
+                <span>SUNDAY:</span><span>Worship Service</span><span>7:00AM</span>
+            </div>
+            <div class="schedule-item">
+                <span>MONDAY:</span><span>Command the Week</span><span>6:00AM-7:00AM</span>
+            </div>
+               <div class="schedule-item">
+                <span>TUESDAY:</span><span>Bible Study</span><span>5:30PM</span>
+            </div> 
+               <div class="schedule-item">
+                <span>WEDNESDAY:</span><span>Manna Water</span>  <span>4:30PM</span> 
+               </div>
+               <div class="highlight fade" id="extra">
+                   Power Must Change Hands:  1st Saturday of the Month  -    7:00AM
+               </div>
+        </div>
+
+        <footer>
+            Surely the LORD is in this place...
+         (Genesis 28 : 16)
+        </footer>
+
+        <script>
+               window.addEventListener("load", () =>
+        {
+            const extra = 
+         document.getElementById("extra");
+              setTimeout(() =>  {
+                extra.classList.add("visible");
+              }, 1000);
+         });
+        </script>
+    </body>
+</html>
